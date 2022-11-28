@@ -1,0 +1,5 @@
+```scala
+case class Name[A](...){ ... }
+trait Name[A]{ ... }
+def name[A](...){ ... }
+```
