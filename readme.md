@@ -5,7 +5,7 @@
 - [2.0] `표현식, 타입, 값`
 - `do_git` [[do_git]] git 명령어 커스터 마이징 코드.
 
-[2.0]: /book/EssentialScala/ch2/2.0%20%ED%91%9C%ED%98%84%EC%8B%9D%2C%ED%83%80%EC%9E%85%2C%EA%B0%92%20.md
+[2.0]: /book/EssentialScala/ch1/1.1%20scala%20-%20repl.md
 
      tutorial book
 
