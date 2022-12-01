@@ -17,8 +17,8 @@
 ## ch4 SUMMARY
 
 - [divide] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
-- [algebraic-pattern] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
-- [drawShape] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
+- [algebraic-pattern] `TrafficLight, Calculation`
+- [drawShape]
 
 [divide]: /book/EssentialScala/ch4/divide.code.md
 [algebraic-pattern]: /book/EssentialScala/ch4/algebraic.pattern.code.md
