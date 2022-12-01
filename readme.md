@@ -16,6 +16,10 @@
 
 ## ch4 SUMMARY
 
+- [대수적타입] `4가지 유형의 타입 패턴`
+- [대수적타입_다형성_패턴매칭] `합타입,곱타입,다형성,패턴매칭`
+- [대수적타입_다형성_패턴매칭_예시] `합타입,곱타입,다형성,패턴매칭 예시`
+
 - [visitor] `visitor :: Anonymous , User`
 - [drawShape_1]
 - [drawShape_2]
@@ -27,6 +31,9 @@
 [drawshape_2]: /book/EssentialScala/ch4/drawShape_2.code.md
 [divide]: /book/EssentialScala/ch4/divide.code.md
 [algebraic-pattern]: /book/EssentialScala/ch4/algebraic.pattern.code.md
+[대수적타입]: /book/EssentialScala/ch4/대수적%20타입_4가지유형의타입패턴.md
+[대수적타입_다형성_패턴매칭]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.md
+[대수적타입_다형성_패턴매칭]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.예시.md
 
 ## ch5 SUMMARY
 

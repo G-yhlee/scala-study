@@ -100,3 +100,11 @@ sealed trait D
 final case class B() extends D
 final case class C() extends D
 ```
+
+# structural recursion ( == decomposing of algebraic data type)
+
+- 구조적 재귀 ( 패턴매칭, 다형성 )패턴
+- 구조적 재귀 패턴은 대수 데이터 타입을 만드는것의 정 반대의 절차이다
+- 구조적 재귀는 데이터를 작게 쪼개는 절차이다
+
+#
