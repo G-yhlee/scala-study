@@ -10,9 +10,9 @@
 [ch3]: /book/EssentialScala/ch3/ch3.summary.md
 [ch4]: /book/EssentialScala/ch4/ch4.summary.md
 
-## ch2
+## ch2 SUMMARY
 
-## ch3
+## ch3 SUMMARY
 
 ## ch4 SUMMARY
 
@@ -28,6 +28,6 @@
 [divide]: /book/EssentialScala/ch4/divide.code.md
 [algebraic-pattern]: /book/EssentialScala/ch4/algebraic.pattern.code.md
 
-## ch5
+## ch5 SUMMARY
 
-## ch6
+## ch6 SUMMARY
