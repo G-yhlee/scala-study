@@ -16,15 +16,19 @@
 
 ## ch4 SUMMARY
 
+#### 주요 개념
+
 - [대수적타입] `4가지 유형의 타입 패턴`
 - [대수적타입_다형성_패턴매칭] `합타입,곱타입,다형성,패턴매칭`
-- [대수적타입_다형성_패턴매칭_예시] `합타입,곱타입,다형성,패턴매칭 예시`
+
+#### 예시
 
 - [visitor] `visitor :: Anonymous , User`
 - [drawShape_1]
 - [drawShape_2]
 - [divide] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
 - [algebraic-pattern] `TrafficLight, Calculation`
+- [대수적타입_다형성_패턴매칭_예시] `합타입,곱타입,다형성,패턴매칭 예시`
 
 [visitor]: /book/EssentialScala/ch4/visitor.code.md
 [drawshape_1]: /book/EssentialScala/ch4/drawShape_1.code.md
