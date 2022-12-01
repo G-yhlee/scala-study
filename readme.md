@@ -16,13 +16,16 @@
 
 ## ch4 SUMMARY
 
+- [visitor] `visitor :: Anonymous , User`
+- [drawShape_1]
+- [drawShape_2]
 - [divide] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
 - [algebraic-pattern] `TrafficLight, Calculation`
-- [drawShape]
 
 [divide]: /book/EssentialScala/ch4/divide.code.md
+[drawshape_1]: /book/EssentialScala/ch4/drawShape_1.code.md
+[drawshape_1]: /book/EssentialScala/ch4/drawShape_2.code.md
 [algebraic-pattern]: /book/EssentialScala/ch4/algebraic.pattern.code.md
-[drawshape]: /book/EssentialScala/ch4/drawShape.code.md
 
 ## ch5
 
