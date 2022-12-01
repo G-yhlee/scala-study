@@ -1,3 +1,4 @@
 # git rm -r --cached whatever_you_want/
 .vscode
 .metals
+.DS_Store
