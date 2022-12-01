@@ -22,9 +22,10 @@
 - [divide] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
 - [algebraic-pattern] `TrafficLight, Calculation`
 
-[divide]: /book/EssentialScala/ch4/divide.code.md
+[visitor]: /book/EssentialScala/ch4/visitor.code.md
 [drawshape_1]: /book/EssentialScala/ch4/drawShape_1.code.md
-[drawshape_1]: /book/EssentialScala/ch4/drawShape_2.code.md
+[drawshape_2]: /book/EssentialScala/ch4/drawShape_2.code.md
+[divide]: /book/EssentialScala/ch4/divide.code.md
 [algebraic-pattern]: /book/EssentialScala/ch4/algebraic.pattern.code.md
 
 ## ch5
