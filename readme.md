@@ -1,6 +1,6 @@
 # SCALA STUDY LOG
 
-## summary
+## ALL SUMMARY
 
 - [ch2] `Expressions, Types, and Values`
 - [ch3] `Objects and Classes`
@@ -10,4 +10,16 @@
 [ch3]: /book/EssentialScala/ch3/ch3.summary.md
 [ch4]: /book/EssentialScala/ch4/ch4.summary.md
 
-## main concept
+## ch2
+
+## ch3
+
+## ch4 SUMMARY
+
+- [divide] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
+
+[divide]: /book/EssentialScala/ch4/divide.code.md
+
+## ch5
+
+## ch6
