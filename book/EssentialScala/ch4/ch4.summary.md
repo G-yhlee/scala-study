@@ -25,6 +25,65 @@
 - the compiler will warn if we miss a case in pattern matching;
 - we can control extension points of sealed traits and thus make stronger guarantees about the behaviour of subtypes.
 
+# 대수적 데이터 타입
+
+# 대수적 타입
+
+다른 자료형의 값을 가지는 자료형
+
+# 곱타입
+
+AND , 타입이 늘어날때 값이 곱사건으로 계산되어짐
+
+# 합타입
+
+- Or , 타입이 늘어날때 값이 합사건으로 계산되어짐
+- 합타입은 생성시점에 타입이 지정되어있기 때문에, 패턴매칭가능
+
+# is AND
+
+```scala
+// A is a B and C
+trait B
+trait C
+trait A extends B with C
+```
+
+# is OR == SUM TYPE
+
+```scala
+// sum type
+// If A is a B or C
+sealed trait A
+final case class B() extends A
+final case class C() extends A
+```
+
+# has AND == product TYPE
+
+```scala
+// product type
+// A has a B and C
+case class A(b: B, c: C)
+```
+
+# has OR
+
+```scala
+// A has a B or C
+// == A is D has b or A is E has c
+sealed trait A
+final case class D(b: B) extends A
+final case class E(c: C) extends A
+// == A is D has b or A is E has c
+trait A {
+  def d: D
+}
+sealed trait D
+final case class B() extends D
+final case class C() extends D
+```
+
 # Visitor 트레이트
 
 ```scala
