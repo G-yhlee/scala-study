@@ -28,3 +28,13 @@ object Calculator {
   }
 }
 ```
+
+# Result
+
+- calculation 을 일반화한 버젼
+
+```scala
+sealed trait Result[A]
+case class Success[A](result: A) extends Result[A]
+case class Failure[A](reason: String) extends Result[A]
+```

@@ -68,4 +68,14 @@
 
 ## ch5 SUMMARY
 
-## ch6 SUMMARY
+> generic ::
+
+> generic :: 예시
+
+- [generic_코드] `간단한 generic 코드 예시`
+- [LinkedList] `LinkedList 트레이트 , Result 트레이트 `
+- [LinkedList_fold] `LinkedList fold `
+
+[generic_코드]: /book/EssentialScala/ch5/simple_generic_code.md.md
+[linkedlist]: /book/EssentialScala/ch5/linkedList.md
+[linkedlist_fold]: /book/EssentialScala/ch5/linkedList_fold.md
