@@ -46,24 +46,25 @@
 - [tree] `Tree Node Leaf`
 - [expression]
 - [json]
+- music :: 생략
 
-[visitor]: /book/EssentialScala/ch4/visitor.code.md
-[visitor_email]: /book/EssentialScala/ch4/Email.md
-[drawshape_1]: /book/EssentialScala/ch4/drawShape_1.code.md
-[drawshape_2]: /book/EssentialScala/ch4/drawShape_2.code.md
-[divide]: /book/EssentialScala/ch4/divide.code.md
-[trafficlight]: /book/EssentialScala/ch4/TrafficLight.md
-[calculation]: /book/EssentialScala/ch4/Calculation.code.md
-[대수적타입]: /book/EssentialScala/ch4/대수적%20타입_4가지유형의타입패턴.md
-[다형성vs패턴매칭]: /book/EssentialScala/ch4/다형성vs패턴매칭.md
-[대수적타입_다형성_패턴매칭]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.md
-[대수적타입_다형성_패턴매칭_예시]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.예시.md
-[intlist]: /book/EssentialScala/ch4/IntList.code.md
-[recursive_algebraic_data_type]: /book/EssentialScala/ch4/recursive_algebraic_data_type.md
-[tail_recursion]: /book/EssentialScala/ch4/tail_recursion.md
-[tree]: /book/EssentialScala/ch4/tree.md
-[expression]: /book/EssentialScala/ch4/expression.md
-[json]: /book/EssentialScala/ch4/json.md
+  [visitor]: /book/EssentialScala/ch4/visitor.code.md
+  [visitor_email]: /book/EssentialScala/ch4/Email.md
+  [drawshape_1]: /book/EssentialScala/ch4/drawShape*1.code.md
+  [drawshape_2]: /book/EssentialScala/ch4/drawShape_2.code.md
+  [divide]: /book/EssentialScala/ch4/divide.code.md
+  [trafficlight]: /book/EssentialScala/ch4/TrafficLight.md
+  [calculation]: /book/EssentialScala/ch4/Calculation.code.md
+  [대수적타입]: /book/EssentialScala/ch4/대수적%20타입_4가지유형의타입패턴.md
+  [다형성vs패턴매칭]: /book/EssentialScala/ch4/다형성vs패턴매칭.md
+  [대수적타입*다형성*패턴매칭]: /book/EssentialScala/ch4/대수적%20타입*곱타입*합타입*다형성*패턴매칭.md
+  [대수적타입*다형성*패턴매칭*예시]: /book/EssentialScala/ch4/대수적%20타입*곱타입*합타입*다형성*패턴매칭.예시.md
+  [intlist]: /book/EssentialScala/ch4/IntList.code.md
+  [recursive_algebraic_data_type]: /book/EssentialScala/ch4/recursive_algebraic_data_type.md
+  [tail_recursion]: /book/EssentialScala/ch4/tail_recursion.md
+  [tree]: /book/EssentialScala/ch4/tree.md
+  [expression]: /book/EssentialScala/ch4/expression.md
+  [json]: /book/EssentialScala/ch4/json.md
 
 ## ch5 SUMMARY
 
