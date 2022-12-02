@@ -135,6 +135,14 @@ final case class C() extends D
 - fp 스타일 에서는 메서드를 쉽게 추가할수 있다.
 - 스칼라에서는 sealed traits 를 통해 패턴매칭이 지원되기 때문에, sealed 방식을 더 선호 한다
 
+# recursive data
+
+```scala
+sealed trait IntList
+case object End extends IntList
+final case class Pair(head: Int, tail: IntList) extends IntList
+```
+
 # 4.6.1 Understanding the Base Case and Recursive Case
 
 ```scala
