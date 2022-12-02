@@ -41,6 +41,7 @@
 [trafficlight]: /book/EssentialScala/ch4/TrafficLight.md
 [calculation]: /book/EssentialScala/ch4/Calculation.code.md
 [대수적타입]: /book/EssentialScala/ch4/대수적%20타입_4가지유형의타입패턴.md
+[다형성vs패턴매칭]: /book/EssentialScala/ch4/다형성vs패턴매칭.md
 [대수적타입_다형성_패턴매칭]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.md
 [대수적타입_다형성_패턴매칭_예시]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.예시.md
 
