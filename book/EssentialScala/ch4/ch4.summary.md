@@ -107,4 +107,47 @@ final case class C() extends D
 - 구조적 재귀 패턴은 대수 데이터 타입을 만드는것의 정 반대의 절차이다
 - 구조적 재귀는 데이터를 작게 쪼개는 절차이다
 
-#
+# structural recursion using Polymorphism
+
+- product type polymorphism
+- sum type polymorphism
+
+# structural recursion using Pattern Matching
+
+- product type Pattern Matching
+- sum type Pattern Matching
+
+# structural recursion 에서 우리가 선택할수 있는 3가지 패턴
+
+1. 다형성 패턴
+2. 패턴매칭 패턴1: 트레이트에서 패턴정의 하는 방법
+3. 패턴매칭 패턴2: 오브젝트에서 패턴정의 하는 방법
+
+- 1,2 중에서는 주로 패턴매칭 방식이 좀 더 적은 코드로 같은 결과를 낼수 있다.
+- 만약 우리가 하나이상의 implementation 을 가질경우, 3번 방식을 채택할수 있다
+
+# oop vs fp
+
+- 전통적인 oop 스타일에서는 다형성을 활용하고, 클래스를 확장하는 것을 허용한다 (스칼라에서는 no sealed traits)
+- oop 에서 클래스의 확장을 통한 많은 수의 매서드를 포함하는 클래스는 유지보수가 어렵다
+- oop 와 fp 에는 근본적인 차이가 있다.
+- oop 스타일에서는 쉽게 데이터를 추가할수 있다. ( extending trait 를 통해 )
+- fp 스타일 에서는 메서드를 쉽게 추가할수 있다.
+- 스칼라에서는 sealed traits 를 통해 패턴매칭이 지원되기 때문에, sealed 방식을 더 선호 한다
+
+# 4.6.1 Understanding the Base Case and Recursive Case
+
+```scala
+sealed trait RecursiveExample
+final case class RecursiveCase(recursion: RecursiveExample) extends RecursiveExample
+case object BaseCase extends RecursiveExample
+
+
+// 개념
+Recursive Structural Recursion Pattern
+When writing structurally recursive code on a recursive algebraic data type:
+
+- whenever we encounter a recursive element in the data we make a recursive call to our method; and
+- whenever we encounter a base case in the data we return the identity for the operation we are performing.
+
+```

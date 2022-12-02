@@ -20,21 +20,26 @@
 
 - [대수적타입] `4가지 유형의 타입 패턴`
 - [대수적타입_다형성_패턴매칭] `합타입,곱타입,다형성,패턴매칭`
+- [다형성vs패턴매칭] `어떤 상황에 어떤 패턴을 사용해야할까?`
 
 #### 예시
 
 - [visitor] `visitor :: Anonymous , User`
+- [visitor_Email] `Email 설계할때 패턴매칭으로 할것인가 다형성으로 할것인가?`
 - [drawShape_1]
 - [drawShape_2]
 - [divide] `패턴매칭, case 클래스, case 오브젝트 ,트레이트`
-- [algebraic-pattern] `TrafficLight, Calculation`
+- [TrafficLight]
+- [Calculation]
 - [대수적타입_다형성_패턴매칭_예시] `합타입,곱타입,다형성,패턴매칭 예시`
 
 [visitor]: /book/EssentialScala/ch4/visitor.code.md
+[visitor_email]: /book/EssentialScala/ch4/Email.md
 [drawshape_1]: /book/EssentialScala/ch4/drawShape_1.code.md
 [drawshape_2]: /book/EssentialScala/ch4/drawShape_2.code.md
 [divide]: /book/EssentialScala/ch4/divide.code.md
-[algebraic-pattern]: /book/EssentialScala/ch4/algebraic.pattern.code.md
+[trafficlight]: /book/EssentialScala/ch4/TrafficLight.md
+[calculation]: /book/EssentialScala/ch4/Calculation.code.md
 [대수적타입]: /book/EssentialScala/ch4/대수적%20타입_4가지유형의타입패턴.md
 [대수적타입_다형성_패턴매칭]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.md
 [대수적타입_다형성_패턴매칭_예시]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.예시.md
