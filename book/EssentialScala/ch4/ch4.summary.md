@@ -138,24 +138,9 @@ final case class C() extends D
 # recursive data
 
 ```scala
+// 재귀적 데이터 타입
 sealed trait IntList
-case object End extends IntList
+
+case object End extends IntList // 무한대의 재귀호출을 방지하기 위한 base case
 final case class Pair(head: Int, tail: IntList) extends IntList
-```
-
-# 4.6.1 Understanding the Base Case and Recursive Case
-
-```scala
-sealed trait RecursiveExample
-final case class RecursiveCase(recursion: RecursiveExample) extends RecursiveExample
-case object BaseCase extends RecursiveExample
-
-
-// 개념
-Recursive Structural Recursion Pattern
-When writing structurally recursive code on a recursive algebraic data type:
-
-- whenever we encounter a recursive element in the data we make a recursive call to our method; and
-- whenever we encounter a base case in the data we return the identity for the operation we are performing.
-
 ```
