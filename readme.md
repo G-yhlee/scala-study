@@ -78,4 +78,4 @@
 
 [generic_코드]: /book/EssentialScala/ch5/simple_generic_code.md.md
 [linkedlist]: /book/EssentialScala/ch5/linkedList.md
-[linkedlist_fold]: /book/EssentialScala/ch5/linkedList_fold.md
+[linkedlist_fold]: /book/EssentialScala/ch5/linkedList_fold.code.md.md
