@@ -5,10 +5,12 @@
 - [ch2] `Expressions, Types, and Values`
 - [ch3] `Objects and Classes`
 - [ch4] `Modelling Data with Traits`
+- [ch5] `Sequencing Computations`
 
 [ch2]: /book/EssentialScala/ch2/ch2.summary.md
 [ch3]: /book/EssentialScala/ch3/ch3.summary.md
 [ch4]: /book/EssentialScala/ch4/ch4.summary.md
+[ch5]: /book/EssentialScala/ch5/ch5.summary.md
 
 ## ch2 SUMMARY
 
@@ -68,14 +70,22 @@
 
 ## ch5 SUMMARY
 
-> generic ::
-
-> generic :: 예시
+> generic
 
 - [generic_코드] `간단한 generic 코드 예시`
+
+> function
+
+- [함수선언구문]
+
+> sample code
+
+- [Result] `LinkedList fold `
 - [LinkedList] `LinkedList 트레이트 , Result 트레이트 `
-- [LinkedList_fold] `LinkedList fold `
+- [tree]
 
 [generic_코드]: /book/EssentialScala/ch5/simple_generic_code.md.md
+[result]: /book/EssentialScala/ch5/result.md
 [linkedlist]: /book/EssentialScala/ch5/linkedList.md
-[linkedlist_fold]: /book/EssentialScala/ch5/linkedList_fold.code.md
+[함수선언구문]: /book/EssentialScala/ch5/함수선언구문.md
+[tree]: /book//EssentialScala/ch5/tree.md
