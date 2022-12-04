@@ -4,6 +4,8 @@
 
 #### generic algebraic data type
 
+- In a later section we’ll introduce variance, giving us a cleaner way to implement this, but for now this is the pattern we’ll use.
+
 ```scala
 sealed trait A[T]
 final case class B[T]() extends A[T]
@@ -26,6 +28,16 @@ sealed trait LinkedList[A] {
 }
 final case class Pair[A](head: A, tail: LinkedList[A]) extends LinkedList[A]
 final case class End[A]() extends LinkedList[A]
+```
+
+#### fold pattern
+
+- polymorphic 보다 패턴매칭에서 사용할때, fold는 이점을 갖는다.
+- 대수적 데이터 타입 A에 대해, fold 는 A 를 B 로 변환 한다.
+- fold 는 구조재귀이다
+
+```scala
+
 ```
 
 #### working with functions
@@ -73,3 +85,12 @@ def fold[B](end: B, pair: (A, B) => B): B
 // 2
 def fold[B](end: B)(pair: (A, B) => B): B
 ```
+
+#### Modelling Data with Generic Types
+
+- Generic Product Types
+- Tuples ( products type)
+- Generic Sum Types :: Either ( :: sum type )
+- Generic Optional Values ( :: option)
+
+#### 5.4.6....

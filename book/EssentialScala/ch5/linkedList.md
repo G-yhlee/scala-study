@@ -31,4 +31,8 @@ sealed trait LinkedList[A] {
 }
 final case class Pair[A](head: A, tail: LinkedList[A]) extends LinkedList[A]
 final case class End[A]() extends LinkedList[A]
+// LinkedList 의 end 는
+// case object End extends LinkedList[A]
+// 처럼 object 로 쓸수는 없는걸까?
+
 ```
