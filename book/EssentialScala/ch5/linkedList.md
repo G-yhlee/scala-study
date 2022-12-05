@@ -4,12 +4,7 @@ case class Success[A](result: A) extends Result[A]
 case class Failure[A](reason: String) extends Result[A]
 
 sealed trait LinkedList[A] {
-  def length: Int =
-    this match {
-      case Pair(hd, tl) => 1 + tl.length
-      case End() => 0
-  }
-  def apply(index: Int): Result[A] =
+    def apply(index: Int): Result[A] =
     this match {
       case Pair(hd, tl) =>
         if(index == 0)
@@ -19,6 +14,12 @@ sealed trait LinkedList[A] {
       case End() =>
         Failure("Index out of bounds")
     }
+  def length: Int =
+    this match {
+      case Pair(hd, tl) => 1 + tl.length
+      case End() => 0
+  }
+
   def contains(item: A): Boolean =
     this match {
       case Pair(hd, tl) =>

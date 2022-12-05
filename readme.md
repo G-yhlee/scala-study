@@ -60,7 +60,7 @@
   [대수적타입]: /book/EssentialScala/ch4/대수적%20타입_4가지유형의타입패턴.md
   [다형성vs패턴매칭]: /book/EssentialScala/ch4/다형성vs패턴매칭.md
   [대수적타입*다형성*패턴매칭]: /book/EssentialScala/ch4/대수적%20타입*곱타입*합타입*다형성*패턴매칭.md
-  [대수적타입*다형성*패턴매칭*예시]: /book/EssentialScala/ch4/대수적%20타입*곱타입*합타입*다형성*패턴매칭.예시.md
+  [대수적타입*다형성*패턴매칭*예시]: /book/EssentialScala/ch4/대수적%20타입_곱타입_합타입_다형성_패턴매칭.예시.md.예시.md
   [intlist]: /book/EssentialScala/ch4/IntList.code.md
   [recursive_algebraic_data_type]: /book/EssentialScala/ch4/recursive_algebraic_data_type.md
   [tail_recursion]: /book/EssentialScala/ch4/tail_recursion.md
@@ -70,22 +70,31 @@
 
 ## ch5 SUMMARY
 
-> generic
+> 5.1 Generics
 
-- [generic_코드] `간단한 generic 코드 예시`
+- [Box] `간단한 generic 코드 예시`
+- [generic_method] `간단한 generic 코드 예시`
+- [result]
+- [linkedList]
 
-> function
+> 5.2 function
 
-- [함수선언구문]
+- [함수선언구문] `함수선언 구문, 함수리터럴`
+- [intlist] `fold 함수로 축약한 intList`
 
-> sample code
+> 5.3 Generic Folds for Generic Data
 
-- [Result] `LinkedList fold `
-- [LinkedList] `LinkedList 트레이트 , Result 트레이트 `
+- [intlist] `LinkedList[A] , fold[B] 로 추상화`
 - [tree]
 
-[generic_코드]: /book/EssentialScala/ch5/simple_generic_code.md.md
+> 5.4 Modelling Data with Generic Types
+
+- [Result] `LinkedList fold `
+
+[box]: /book/EssentialScala/ch5/Box.md.md
+[generic_method]: /book/EssentialScala/ch5/generic_method.md.md
 [result]: /book/EssentialScala/ch5/result.md
 [linkedlist]: /book/EssentialScala/ch5/linkedList.md
 [함수선언구문]: /book/EssentialScala/ch5/함수선언구문.md
 [tree]: /book//EssentialScala/ch5/tree.md
+[intlist]: /book//EssentialScala/ch5/IntList.fold.md.md

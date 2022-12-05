@@ -1,12 +1,25 @@
+# 5.1 generics
+
 #### generic 이란
 
 - 타입정의를 변수처럼 정의하여, 제너럴한 함수나 클래스를 만들도록함
+
+#### generic syntax
+
+```scala
+case class Name[A](...){ ... }
+trait Name[A]{ ... }
+def name[A](...){ ... }
+
+```
 
 #### generic algebraic data type
 
 - In a later section we’ll introduce variance, giving us a cleaner way to implement this, but for now this is the pattern we’ll use.
 
 ```scala
+// Invariant Generic Sum Type Pattern
+
 sealed trait A[T]
 final case class B[T]() extends A[T]
 final case class C[T]() extends A[T]
@@ -15,8 +28,19 @@ final case class C[T]() extends A[T]
 #### Functions
 
 - function 은 매서드를 값으로 바꿔서, 넘길수 있고 조작할수 있게한다
+- Function Type Declaration Syntax
+- Function literals
 
 #### generic folds for generic data
+
+#### 폴드에 대한 개념
+
+```
+Fold is just an adaptation of structural recursion where we allow the user to pass in the functions we apply at each case. As structural recursion is the generic pattern for writing any function that transforms an algebraic datatype, fold is the concrete realisation of this generic pattern. That is, fold is the generic transformation or iteration method. Any function you care to write on an algebraic datatype can be written in terms of fold.
+
+- 폴드는 재귀데이터를 함수를 통해 연산할수 있는 방법을 제공한다.
+- 대수 데이터 타입을 다루는 어떤 함수라도, 폴드를 통해 작성할수있다
+```
 
 ```scala
 sealed trait LinkedList[A] {
@@ -38,26 +62,6 @@ final case class End[A]() extends LinkedList[A]
 
 ```scala
 
-```
-
-#### working with functions
-
-```scala
-((_: Int) * 2) // (a: Int) => a * 2
-_ + _     // expands to `(a, b) => a + b`
-foo(_)    // expands to `(a) => foo(a)`
-foo(_, b) // expands to `(a) => foo(a, b)`
-_(foo)    // expands to `(a) => a(foo)`
-```
-
-#### multiple parameter lists
-
-```scala
-def example(x: Int)(y: Int) = x + y
-// example: (x: Int)(y: Int)Int
-
-example(1)(2)
-// res3: Int = 3
 ```
 
 #### fold
@@ -86,7 +90,7 @@ def fold[B](end: B, pair: (A, B) => B): B
 def fold[B](end: B)(pair: (A, B) => B): B
 ```
 
-#### Modelling Data with Generic Types
+#### 5.4 Modelling Data with Generic Types
 
 - Generic Product Types
 - Tuples ( products type)

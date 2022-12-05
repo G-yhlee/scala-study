@@ -1,4 +1,4 @@
-# 1단계
+# 1단계 :: 기본형
 
 ```scala
 sealed trait IntList {
@@ -27,7 +27,7 @@ sealed trait IntList {
 
 ```
 
-# 2 단계
+# 2 단계 :: fold 로 축약형
 
 ```scala
 sealed trait IntList {
@@ -47,7 +47,7 @@ case object End extends IntList
 final case class Pair(head: Int, tail: IntList) extends IntList
 ```
 
-# 3 단계
+# 3 단계 :: fold[A] 로 축약형
 
 ```scala
 sealed trait IntList {
@@ -69,7 +69,7 @@ case object End extends IntList
 final case class Pair(head: Int, tail: IntList) extends IntList
 ```
 
-# 4 단계
+# 4 단계 :: LinkedList[A],fold[B]
 
 ```scala
 sealed trait LinkedList[A] {
