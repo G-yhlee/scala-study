@@ -80,11 +80,11 @@
 > 5.2 function
 
 - [함수선언구문] `함수선언 구문, 함수리터럴`
-- [intlist] `fold 함수로 축약한 intList`
+- [IntList_to_linkedList] `fold 함수로 축약한 intList`
 
 > 5.3 Generic Folds for Generic Data
 
-- [intlist] `LinkedList[A] , fold[B] 로 추상화`
+- [IntList_to_linkedList] `LinkedList[A] , fold[B] 로 추상화`
 - [tree]
 
 > 5.4 Modelling Data with Generic Types
@@ -97,4 +97,4 @@
 [linkedlist]: /book/EssentialScala/ch5/linkedList.md
 [함수선언구문]: /book/EssentialScala/ch5/함수선언구문.md
 [tree]: /book//EssentialScala/ch5/tree.md
-[intlist]: /book//EssentialScala/ch5/IntList.fold.md.md
+[intlist_to_linkedlist]: /book//EssentialScala/ch5/IntList_to_linkedList.fold.md.md
