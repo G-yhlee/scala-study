@@ -2,12 +2,22 @@
 
 ```scala
 sealed trait Sum[A, B] {
-  def fold[C](left: A => C, right: B => C): C =
+  def fold[C](error: A => C, success: B => C): C =
     this match {
-      case Left(a) => left(a)
-      case Right(b) => right(b)
+      case Failure(v) => error(v)
+      case Success(v) => success(v)
+    }
+  def map[C](f: B => C): Sum[A, C] =
+    this match {
+      case Failure(v) => Failure(v)
+      case Success(v) => Success(f(v))
+    }
+  def flatMap[C](f: B => Sum[A, C]) =
+    this match {
+      case Failure(v) => Failure(v)
+      case Success(v) => f(v)
     }
 }
-final case class Left[A, B](value: A) extends Sum[A, B]
-final case class Right[A, B](value: B) extends Sum[A, B]
+final case class Failure[A, B](value: A) extends Sum[A, B]
+final case class Success[A, B](value: B) extends Sum[A, B]
 ```

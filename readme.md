@@ -99,6 +99,8 @@
 - [functor_and_monad] `linkedList 예시로부터 설명`
 - [sum] `sum type 에서의 fold`
 
+> 5.6 Variance
+
 [box]: /book/EssentialScala/ch5/Box.md
 [pair]: /book/EssentialScala/ch5/pair.md
 [generic_method]: /book/EssentialScala/ch5/generic_method.md.md
@@ -110,3 +112,15 @@
 [sum]: /book/EssentialScala/ch5/sum.md
 [maybe]: /book/EssentialScala/ch5/maybe.md
 [functor_and_monad]: /book/EssentialScala/ch5/IntList_to_linkedList.md.md
+
+## ch6 SUMMARY
+
+> 6.1 sequences
+
+- interface 와 implementation 의 구분
+- 불변성과, 변성의 구분
+- sequence 를 변경시키는 method 탐구
+
+  > options
+
+  - > maps.
