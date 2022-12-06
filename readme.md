@@ -6,11 +6,13 @@
 - [ch3] `Objects and Classes`
 - [ch4] `Modelling Data with Traits`
 - [ch5] `Sequencing Computations`
+- [ch6] `collections`
 
 [ch2]: /book/EssentialScala/ch2/ch2.summary.md
 [ch3]: /book/EssentialScala/ch3/ch3.summary.md
 [ch4]: /book/EssentialScala/ch4/ch4.summary.md
 [ch5]: /book/EssentialScala/ch5/ch5.summary.md
+[ch5]: /book/EssentialScala/ch6/ch6.summary.md
 
 ## ch2 SUMMARY
 
@@ -117,10 +119,6 @@
 
 > 6.1 sequences
 
-- interface 와 implementation 의 구분
-- 불변성과, 변성의 구분
-- sequence 를 변경시키는 method 탐구
+> options
 
-  > options
-
-  - > maps.
+- > maps.
