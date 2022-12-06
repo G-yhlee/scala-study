@@ -35,8 +35,8 @@ sealed trait IntList {
     this match {
       case End => end
       case Pair(hd, tl) => f(hd, tl.fold(end, f))
-    }
   def length: Int =
+    }
     fold(0, (_, tl) => 1 + tl)
   def product: Int =
     fold(1, (hd, tl) => hd * tl)

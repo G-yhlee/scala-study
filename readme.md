@@ -97,4 +97,4 @@
 [linkedlist]: /book/EssentialScala/ch5/linkedList.md
 [함수선언구문]: /book/EssentialScala/ch5/함수선언구문.md
 [tree]: /book//EssentialScala/ch5/tree.md
-[intlist_to_linkedlist]: /book//EssentialScala/ch5/IntList_to_linkedList.fold.md.md
+[intlist_to_linkedlist]: /book/EssentialScala/ch5/IntList_to_linkedList.md
