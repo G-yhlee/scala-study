@@ -99,7 +99,8 @@
 - [functor_and_monad] `linkedList 예시로부터 설명`
 - [sum] `sum type 에서의 fold`
 
-[box]: /book/EssentialScala/ch5/Box.md.md
+[box]: /book/EssentialScala/ch5/Box.md
+[pair]: /book/EssentialScala/ch5/pair.md
 [generic_method]: /book/EssentialScala/ch5/generic_method.md.md
 [result]: /book/EssentialScala/ch5/result.md
 [linkedlist]: /book/EssentialScala/ch5/linkedList.md
