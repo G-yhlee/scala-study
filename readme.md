@@ -89,7 +89,15 @@
 
 > 5.4 Modelling Data with Generic Types
 
+- [pair] `generic product type`
 - [Result] `LinkedList fold `
+- [sum] ``
+- [maybe] ``
+
+> 5.5 Map , FlatMap , functor , monad
+
+- [functor_and_monad] `linkedList 예시로부터 설명`
+- [sum_type] `sum type 에서의 fold`
 
 [box]: /book/EssentialScala/ch5/Box.md.md
 [generic_method]: /book/EssentialScala/ch5/generic_method.md.md
@@ -98,3 +106,6 @@
 [함수선언구문]: /book/EssentialScala/ch5/함수선언구문.md
 [tree]: /book//EssentialScala/ch5/tree.md
 [intlist_to_linkedlist]: /book/EssentialScala/ch5/IntList_to_linkedList.md
+[sum_type]: /book/EssentialScala/ch5/sum.md
+[maybe]: /book/EssentialScala/ch5/maybe.md
+[functor_and_monad]: /book/EssentialScala/ch5/IntList_to_linkedList.md.md
