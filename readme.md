@@ -91,8 +91,8 @@
 
 - [pair] `generic product type`
 - [Result] `LinkedList fold `
-- [sum] ``
-- [maybe] ``
+- [sum]
+- [maybe]
 
 > 5.5 Map , FlatMap , functor , monad
 
