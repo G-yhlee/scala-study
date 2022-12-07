@@ -72,3 +72,8 @@ Seq(1, 2, 3).foldRight(0)(_ + _) // (1 + (2 + (3 + 0)))
 List(1, 2, 3).foreach(num => println("And a " + num + "..."))
 
 ```
+
+#### option
+
+- 옵션은 null을 대체하는 값이다
+- option 은 some, none 을 하위 타입으로 갖는 트레이트이다.

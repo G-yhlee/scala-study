@@ -126,9 +126,21 @@
 
 > options
 
-> maps.
+- [option] ``
+
+> monads
+
+-
 
 [basic_sequences]: /book/EssentialScala/ch6/basic_sequences.md
 [custom_sequences]: /book/EssentialScala/ch6/custom_sequence.md
 [seq.empty]: /book/EssentialScala/ch6/seq.empty.md
 [for_comprehensions]: /book/EssentialScala/ch6/for_comprehensions.md
+[option]: /book/EssentialScala/ch6/option.md
+[some]: /book/EssentialScala/ch6/some.md
+[none]: /book/EssentialScala/ch6/none.md
+
+## ch[x]
+
+- monad
+- PatternMatching
