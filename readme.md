@@ -122,6 +122,7 @@
 - [basic_sequences] `기본형`
 - [custom_sequences] `커스텀 매서드`
 - [seq.empty] `seq.empty 탐구`
+- [for_comprehensions] `스칼라에서의 for 문`
 
 > options
 
@@ -130,3 +131,4 @@
 [basic_sequences]: /book/EssentialScala/ch6/basic_sequences.md
 [custom_sequences]: /book/EssentialScala/ch6/custom_sequence.md
 [seq.empty]: /book/EssentialScala/ch6/seq.empty.md
+[for_comprehensions]: /book/EssentialScala/ch6/for_comprehensions.md

@@ -1,7 +1,5 @@
 # custom_sequences
 
-#### unique
-
 ```scala
 object custom {
 
