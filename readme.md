@@ -12,7 +12,7 @@
 [ch3]: /book/EssentialScala/ch3/ch3.summary.md
 [ch4]: /book/EssentialScala/ch4/ch4.summary.md
 [ch5]: /book/EssentialScala/ch5/ch5.summary.md
-[ch5]: /book/EssentialScala/ch6/ch6.summary.md
+[ch6]: /book/EssentialScala/ch6/ch6.summary.md
 
 ## ch2 SUMMARY
 
@@ -117,8 +117,16 @@
 
 ## ch6 SUMMARY
 
-> 6.1 sequences
+> sequences
+
+- [basic_sequences] `기본형`
+- [custom_sequences] `커스텀 매서드`
+- [seq.empty] `seq.empty 탐구`
 
 > options
 
-- > maps.
+> maps.
+
+[basic_sequences]: /book/EssentialScala/ch6/basic_sequences.md
+[custom_sequences]: /book/EssentialScala/ch6/custom_sequence.md
+[seq.empty]: /book/EssentialScala/ch6/seq.empty.md
