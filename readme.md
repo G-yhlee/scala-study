@@ -140,7 +140,7 @@
 [some]: /book/EssentialScala/ch6/some.md
 [none]: /book/EssentialScala/ch6/none.md
 
-## ch[x]
+## ch[참고자료]
 
-- monad
-- PatternMatching
+- [monad]()
+- [패턴매칭](https://www.baeldung.com/scala/pattern-matching)
