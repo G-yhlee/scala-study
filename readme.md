@@ -143,7 +143,7 @@
 ## reference
 
 - [essential-scala]
-- [monad]
+- [monad]()
 - [패턴매칭]`기본적인 패턴매칭`
 
 [essential-scala]: https://books.underscore.io/essential-scala/essential-scala.html
