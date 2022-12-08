@@ -142,9 +142,9 @@
 
 ## reference
 
-- [essential-scala](https://books.underscore.io/essential-scala/essential-scala.html)
-- [monad]()
-- [패턴매칭](https://www.baeldung.com/scala/pattern-matching)
-- [패턴매칭2](https://www.baeldung.com/scala/pattern-matching)
+- [essential-scala]
+- [monad]
+- [패턴매칭]`기본적인 패턴매칭`
 
-[패턴매칭2]: https://www.baeldung.com/scala/pattern-matching
+[essential-scala]: https://books.underscore.io/essential-scala/essential-scala.html
+[패턴매칭]: https://www.baeldung.com/scala/pattern-matching
