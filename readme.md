@@ -145,6 +145,7 @@
 
 - [random_words]
 - [pair_coin]
+- [smelling_cat]
 
 > examples
 
@@ -164,6 +165,7 @@
 [range]: /book/EssentialScala/ch6/range.md
 [random_words]: /book/EssentialScala/ch6/random_words.md
 [pair_coin]: /book/EssentialScala/ch6/pair_coin.md
+[smelling_cat]: /book/EssentialScala/ch6/smelling_cat.md
 
 ## reference
 
@@ -171,5 +173,10 @@
 - [monad]()
 - [패턴매칭]`기본적인 패턴매칭`
 
+## basic examples
+
+- [for] `for 문 예제`
+
 [essential-scala]: https://books.underscore.io/essential-scala/essential-scala.html
 [패턴매칭]: https://www.baeldung.com/scala/pattern-matching
+[for]: /book/examples/for.md
