@@ -48,3 +48,33 @@ for {
   elt <- seq
 } println(elt * 2)
 ```
+
+#### for comprehensions redux
+
+#### filtering
+
+```scala
+for(x <- Seq(-2, -1, 0, 1, 2) if x > 0) yield x
+// res0: Seq[Int] = List(1, 2)
+```
+
+#### parallel iteration
+
+- 원하는 결과를 얻기 위해서는
+
+```scala
+for {
+  x <- Seq(1, 2, 3)
+  y <- Seq(4, 5, 6)
+} yield x + y
+// res1: Seq[Int] = List(5, 6, 7, 6, 7, 8, 7, 8, 9)
+```
+
+- 다음과 같이 표현할수있다.
+
+```scala
+for(x <- Seq(1, 2, 3).zip(Seq(4, 5, 6))) yield { val (a, b) = x; a + b }
+
+for((a,b) <- Seq(1, 2, 3).zip(Seq(4, 5, 6))) yield a + b
+
+```
