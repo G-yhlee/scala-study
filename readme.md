@@ -130,7 +130,7 @@
 
 > monads
 
--
+- [monad] `모나드의미와 쓰임`
 
 [basic_sequences]: /book/EssentialScala/ch6/basic_sequences.md
 [custom_sequences]: /book/EssentialScala/ch6/custom_sequence.md
@@ -139,6 +139,7 @@
 [option]: /book/EssentialScala/ch6/option.md
 [some]: /book/EssentialScala/ch6/some.md
 [none]: /book/EssentialScala/ch6/none.md
+[monad]: /book/EssentialScala/ch6/monad.md
 
 ## reference
 
