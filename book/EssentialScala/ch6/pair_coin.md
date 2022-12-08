@@ -38,7 +38,6 @@ object Distribution {
 sealed trait Coin
 case object Heads extends Coin
 case object Tails extends Coin
-case object Body extends Coin
 
 object Main extends App {
 
@@ -50,7 +49,6 @@ object Main extends App {
       c1 <- fairCoin
       c2 <- fairCoin
       c3 <- fairCoin
-      c4 <- fairCoin
     } yield (c1, c2, c3)
 
   println(threeFlips)

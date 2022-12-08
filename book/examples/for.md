@@ -10,7 +10,7 @@ for {
 // 동치
 
 a.flatMap(x => b.flatMap(y => c.map(z => e)))
-a.flatMap(x => b.flatMap(y => c.foreach(z => e)))
+a.flatMap(x => b.flatMap(y => c.foreach(z => e))) // yield 제거
 
 
 
