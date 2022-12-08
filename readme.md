@@ -141,10 +141,14 @@
 
 - [range]
 
+> generating random data
+
+- [random_words]
+- [pair_coin]
+
 > examples
 
 - [union]
-- [generating_random_data]
 
 [basic_sequences]: /book/EssentialScala/ch6/basic_sequences.md
 [custom_sequences]: /book/EssentialScala/ch6/custom_sequence.md
@@ -158,7 +162,8 @@
 [set]: /book/EssentialScala/ch6/set.md
 [union]: /book/EssentialScala/ch6/union.md
 [range]: /book/EssentialScala/ch6/range.md
-[generating_random_data]: /book/EssentialScala/ch6/generating_random_data.md
+[random_words]: /book/EssentialScala/ch6/random_words.md
+[pair_coin]: /book/EssentialScala/ch6/pair_coin.md
 
 ## reference
 
