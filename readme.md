@@ -140,7 +140,8 @@
 [some]: /book/EssentialScala/ch6/some.md
 [none]: /book/EssentialScala/ch6/none.md
 
-## ch[참고자료]
+## reference
 
+- [essential-scala](https://books.underscore.io/essential-scala/essential-scala.html)
 - [monad]()
 - [패턴매칭](https://www.baeldung.com/scala/pattern-matching)
