@@ -83,6 +83,31 @@ final case class Pair[A](head: A, tail: LinkedList[A]) extends LinkedList[A]
 final case class End[A]() extends LinkedList[A]
 ```
 
+# 코멘트
+
+```scala
+// There is a way: you have to require proof that A is Int. There's two ways to do this:
+
+// 1. Require the compiler to prove that `A <:< Int`, and call that proof as a function
+def sum(implicit aIsInt: A <:< Int): Int = fold[Int](
+  0,
+  (head: A, tail: LinkedList[A]) => {
+    aIsInt(head) + tail.sum(aIsInt)
+  }
+)
+
+// 2. Require type inference to prove that there is some type `X` which is _at most_ A, but _at least_ Int. Then (((a: A): X): Int) converts an A to an Int without any function calls
+def sum[X >: A <: Int]: Int = fold[Int](
+  0,
+  (head: A, tail: LinkedList[A]) => {
+    ((head: X): Int) + tail.sum[X]
+  }
+)
+
+// These are both more advanced concepts (the latter is actually incredibly advanced, to the point where you will almost never see it in real code), but there is a way to do these sorts of things
+
+```
+
 # Map , flatMap
 
 - F[A] => F[B] by A => B , 이 함수를 map 이라 한다
