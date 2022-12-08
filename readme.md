@@ -134,7 +134,17 @@
 
 > map and set
 
-- [map_and_set]
+- [map]
+- [set]
+
+> range
+
+- [range]
+
+> examples
+
+- [union]
+- [generating_random_data]
 
 [basic_sequences]: /book/EssentialScala/ch6/basic_sequences.md
 [custom_sequences]: /book/EssentialScala/ch6/custom_sequence.md
@@ -144,7 +154,11 @@
 [some]: /book/EssentialScala/ch6/some.md
 [none]: /book/EssentialScala/ch6/none.md
 [monad]: /book/EssentialScala/ch6/monad.md
-[map_and_set]: /book/EssentialScala/ch6/map_and_set.md
+[map]: /book/EssentialScala/ch6/map.md
+[set]: /book/EssentialScala/ch6/set.md
+[union]: /book/EssentialScala/ch6/union.md
+[range]: /book/EssentialScala/ch6/range.md
+[generating_random_data]: /book/EssentialScala/ch6/generating_random_data.md
 
 ## reference
 
