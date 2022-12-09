@@ -1,8 +1,8 @@
 #### data
 
 - [literal-type] `리터럴 타입`
-- [nomal-type] `일반적인 타입`
-- [recursive-type] `스칼라 내장 타입`
+- [normal-type] `일반적인 타입`
+- [recursive-type] `재귀적 타입`
 
 #### function
 
