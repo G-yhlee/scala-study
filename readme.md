@@ -91,10 +91,10 @@
 
 > 5.4 Modelling Data with Generic Types
 
-- [pair] `generic product type`
+- [pair] `Generic products type :: Tuples`
+- [sum] `Generic Sum Types :: Either`
+- [maybe] `Generic Optional Values :: option`
 - [Result] `LinkedList fold `
-- [sum]
-- [maybe]
 
 > 5.5 Map , FlatMap , functor , monad
 

@@ -92,9 +92,8 @@ def fold[B](end: B)(pair: (A, B) => B): B
 
 #### 5.4 Modelling Data with Generic Types
 
-- Generic Product Types
-- Tuples ( products type)
-- Generic Sum Types :: Either ( :: sum type )
-- Generic Optional Values ( :: option)
+- Generic products type :: Tuples
+- Generic Sum Types :: Either
+- Generic Optional Values :: option
 
 #### 5.4.6....
