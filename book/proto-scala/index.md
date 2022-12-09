@@ -43,3 +43,5 @@
 - [function]
 - [function]
 - [function]
+
+#### examples
