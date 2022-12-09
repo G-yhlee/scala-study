@@ -12,15 +12,15 @@
 
 [cats]: /materials/cats/index.md
 
-# simple links
+## simple links
 
-## testing
+#### testing
 
 - [hedgehogqa] `Property-based test 라이브러리`
 
 [hedgehogqa]: https://hedgehogqa.github.io/scala-hedgehog/docs/guides/
 
-## type class
+#### type class
 
 - [Type_Classes_in_Scala] `타입 클래스에 관한 설명`
 
