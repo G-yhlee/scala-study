@@ -78,6 +78,8 @@ sealed trait LinkedList[A] {
       case End() => end
       case Pair(hd, tl) => f(hd, tl.fold(end, f))
     }
+    // length, product, sum, double 중에 length 만 동작된다.
+    // 다른 메서드 들은, 타입클래스나 다른 방식으로 추상화 적용하여야한다.
 }
 final case class Pair[A](head: A, tail: LinkedList[A]) extends LinkedList[A]
 final case class End[A]() extends LinkedList[A]
