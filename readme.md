@@ -8,6 +8,6 @@
 
 # materials
 
-- [cats] `functional library`
+- [cats] `functional programming library`
 
 [cats]: /book/guides/index.md
