@@ -1,4 +1,4 @@
-#### data type
+#### data
 
 - [literal-type] `리터럴 타입`
 - [custom-type] `직접 만든 타입`
@@ -11,7 +11,7 @@
 - [flatMap]
 - [fold]
 
-#### talk
+#### side-effect
 
 > 식
 
@@ -33,15 +33,12 @@
 - [functor]
 - [typeclass]
 
-#### syntax
+> syntax
 
 - [function]
 - [function]
 - [function]
 - [function]
 - [function]
-- [function]
-- [function]
-- [function]
 
-#### examples
+> examples
