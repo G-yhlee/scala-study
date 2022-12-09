@@ -1,9 +1,8 @@
 #### data
 
 - [literal-type] `리터럴 타입`
-- [custom-type] `직접 만든 타입`
-- [default-type] `스칼라 내장 타입`
-- [monad-type] `모나드 타입`
+- [nomal-type] `일반적인 타입`
+- [recursive-type] `스칼라 내장 타입`
 
 #### function
 
