@@ -1,11 +1,3 @@
-## Scala Learning Materials
-
-- [Type_Classes_in_Scala] `타입 클래스에 관한 설명`
-
-[type_classes_in_scala]: https://www.baeldung.com/scala/type-classes
-
-​
-
 ## Cats
 
 > 주로 쓰이는 cats 정리
@@ -43,9 +35,3 @@ A subproject of cats의 서브프로젝트로 I/O 와 기타 side effect를 처�
 
 - Tutorial: https://typelevel.org/cats-effect/docs/tutorial
   ​
-
-## Scala-Hedgehog
-
-Property-based test 라이브러리
-
-> https://hedgehogqa.github.io/scala-hedgehog/docs/guides/
