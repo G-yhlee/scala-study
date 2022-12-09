@@ -68,52 +68,41 @@
   [expression]: /book/EssentialScala/ch4/expression.md
   [json]: /book/EssentialScala/ch4/json.md
 
-## ch5 SUMMARY
+## ch6 SUMMARY
 
-> 5.1 Generics
+<details><summary> types</summary>
 
-- [Box] `간단한 generic 코드 예시`
-- [generic_method] `간단한 generic 코드 예시`
+#### custom types
+
 - [result]
-- [linkedList]
-
-> 5.2 function
-
-- [함수선언구문] `함수선언 구문, 함수리터럴`
-- [IntList_to_linkedList] `fold 함수로 축약한 intList`
-
-> 5.3 Generic Folds for Generic Data
-
-- [IntList_to_linkedList] `LinkedList[A] , fold[B] 로 추상화`
+- [linkedList] `LinkedList[A] , fold[B] 로 추상화`
 - [tree]
 
-> 5.4 Modelling Data with Generic Types
+[result]: /book/EssentialScala/ch5/ch5.types/custom_type/result.md
+[linkedlist]: /book/EssentialScala/ch5/ch5.types/custom_type/linkedList.md
+[tree]: /book/EssentialScala/ch5/ch5.types/custom_type/tree.md
 
-- [products_type] `Generic products type :: Tuples`
-- [sum_type] `Generic Sum Types :: Either`
-- [option_type] `Generic Optional Values :: option`
+#### default types
 
-[products_type]: /book/EssentialScala/ch5/Modelling_Data_with_Generic_Types/products_type.md
-[sum_type]: /book/EssentialScala/ch5/Modelling_Data_with_Generic_Types/sum_type.md
-[option_type]: /book/EssentialScala/ch5/Modelling_Data_with_Generic_Types/option_type.md
+- [option.type]
+- [product.type]
+- [sum.type]
 
-> 5.5 Map , FlatMap , functor , monad
+[option.type]: /book/EssentialScala/ch5/ch5.types/default_type/option.type.md
+[product.type]: /book/EssentialScala/ch5/ch5.types/default_type/product.type.md
+[sum.type]: /book/EssentialScala/ch5/ch5.types/default_type/sum.type.md
 
-- [functor_and_monad] `linkedList 예시로부터 설명`
-- [sum] `sum type 에서의 fold`
+</details>
 
-> 5.6 Variance
+<details><summary> functions</summary>
 
-[box]: /book/EssentialScala/ch5/Box.md
-[generic_method]: /book/EssentialScala/ch5/generic_method.md.md
-[result]: /book/EssentialScala/ch5/result.md
-[linkedlist]: /book/EssentialScala/ch5/linkedList.md
-[함수선언구문]: /book/EssentialScala/ch5/함수선언구문.md
-[tree]: /book//EssentialScala/ch5/tree.md
-[intlist_to_linkedlist]: /book/EssentialScala/ch5/IntList_to_linkedList.md
-[functor_and_monad]: /book/EssentialScala/ch5/IntList_to_linkedList.md.md
+- [fold] `fold 함수`
+  <!-- - [map] -->
+  <!-- - [flatMap] -->
 
-## ch6 SUMMARY
+[fold]: /book/EssentialScala/ch5/ch5.functions/fold.md
+
+</details>
 
 > sequences
 
