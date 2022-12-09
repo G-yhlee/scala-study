@@ -91,10 +91,13 @@
 
 > 5.4 Modelling Data with Generic Types
 
-- [pair] `Generic products type :: Tuples`
-- [sum] `Generic Sum Types :: Either`
-- [maybe] `Generic Optional Values :: option`
-- [Result] `LinkedList fold `
+- [products_type] `Generic products type :: Tuples`
+- [sum_type] `Generic Sum Types :: Either`
+- [option_type] `Generic Optional Values :: option`
+
+[products_type]: /book/EssentialScala/ch5/Modelling_Data_with_Generic_Types/products_type.md
+[sum_type]: /book/EssentialScala/ch5/Modelling_Data_with_Generic_Types/sum_type.md
+[option_type]: /book/EssentialScala/ch5/Modelling_Data_with_Generic_Types/option_type.md
 
 > 5.5 Map , FlatMap , functor , monad
 
@@ -104,15 +107,12 @@
 > 5.6 Variance
 
 [box]: /book/EssentialScala/ch5/Box.md
-[pair]: /book/EssentialScala/ch5/pair.md
 [generic_method]: /book/EssentialScala/ch5/generic_method.md.md
 [result]: /book/EssentialScala/ch5/result.md
 [linkedlist]: /book/EssentialScala/ch5/linkedList.md
 [함수선언구문]: /book/EssentialScala/ch5/함수선언구문.md
 [tree]: /book//EssentialScala/ch5/tree.md
 [intlist_to_linkedlist]: /book/EssentialScala/ch5/IntList_to_linkedList.md
-[sum]: /book/EssentialScala/ch5/sum.md
-[maybe]: /book/EssentialScala/ch5/maybe.md
 [functor_and_monad]: /book/EssentialScala/ch5/IntList_to_linkedList.md.md
 
 ## ch6 SUMMARY
