@@ -10,4 +10,4 @@
 
 - [cats] `functional programming library`
 
-[cats]: /book/guides/index.md
+[cats]: /materials/cats/index.md
