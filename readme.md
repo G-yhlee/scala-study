@@ -6,8 +6,8 @@
 
 [essential-scala]: /book/EssentialScala/index.md
 
-# Scala Learning Materials
+# materials
 
-- [cats] `cats 라이브러리`
+- [cats] `functional library`
 
 [cats]: /book/guides/index.md
