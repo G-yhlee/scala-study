@@ -6,6 +6,10 @@
 
 [essential-scala]: /book/EssentialScala/index.md
 
+# docs
+
+- [operators](docs/operator.md) `스칼라 오퍼레이터 or 오퍼레이터같은함수`
+
 # materials
 
 - [cats] `functional programming library`
