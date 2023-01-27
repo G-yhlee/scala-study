@@ -96,3 +96,59 @@ object DecoderTest:
   val test4 = authorDecoder(invalidAuthor.hcursor)
 
 ```
+
+#### 다른 예시
+
+```scala
+ object ParserSample:
+
+    case class Payload(
+        title: String,
+        content: String,
+        author: String,
+        comments: List[String],
+    )
+    case class BoardApi(totalCount: Int, payload: List[Payload])
+
+    implicit val BoardsApiDecoder: Decoder[Payload] = deriveDecoder
+    implicit val BoardsApiEncoder: Encoder[Payload] = deriveEncoder
+
+    val sample = """{
+        "totalCount": 21,
+        "payload": [
+            {
+                "title": "hello world",
+                "content": "some contents...",
+                "author": "j",
+                "comments": [
+                    "b775871c85faae7eb5f6bcebfd28b1e1b412235c"
+                ],
+            },
+           {
+                "title": "matrix reloaded",
+                "content": "some contents...",
+                "author": "xxx",
+                "comments": [
+                    "b775871c85faae7eb5f6bcebfd28b1e1b412235c",
+                    "b775871c85faae7eb5f6bcebfd28b1e1b412235c2",
+                ],
+            },
+        ]
+        }"""
+  object ParserSample2:
+
+    case class Payload(
+        title: String,
+        content: String,
+        author: String,
+        comments: List[String],
+    ) derives Codec.AsObject
+
+    case class BoardApi(totalCount: Int, payload: List[Payload])
+        derives Codec.AsObject
+
+
+// A Codec is both decoder and an encoder (so going both from json and to json)
+
+// The modelling itself matches what you have there. Note that coming from JS world your classes would have to handle something being null/undefined here. So if any of the fields can be null/non-existent in the data you would wrap them in Option, aka author: Option[String]
+```
